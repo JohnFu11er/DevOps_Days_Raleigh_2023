@@ -200,3 +200,32 @@
   - Reduce complexity and sprawl
 - - Additional documentation
   - [Zero Trust Architecture in Kubernetes](https://www.nginx.com/resources/library/zero-trust-architecture-in-kubernetes/)
+
+### Keeping your product and Engineering Teams Aligned as You Scale from zero to IPO
+- [Kai Xin Tai](https://www.linkedin.com/in/kaixintai/)
+- Works at [Datadog](https://www.datadoghq.com/)
+- When do you start to consider scalability of features in product development
+- As product matures, more time is spent on operations, and less on development
+- Cap the accumulation of tech-data once you find a market fit for you product
+- Reliability is what your customers think of your service
+- Reliability is expensive.  Increased complexity and cost (money and time)
+- which is why SRE has become so popular
+- Number of SREs should scale with nuber of features
+- A Service Level Objective (SLO) is an approxiamtion of customer trust
+  - Not just for application teams, byt platform teams too
+  - Not just a reporting tool.  They help you understand your own changing systems
+    - Can you meseust end user experience
+    - Do you understand application boundaries
+    - Who depends on you
+    - who do you depend on
+  - Tradeoffs are made explicit
+- Prioritization
+  1. Create SLOs for all services
+     - Offer organization-wide "golden paths"
+     - Make SLO definition part of your production readiness checklist
+     - In a large-scale SLO rollout, you should ask:
+       - Do all service have SLOs - all slo in one place
+       - Are we in compliance with our objectives - Clear sevice ownership
+       - How do we ensure we actually hit our objectives - Correlate service SLO with telemetry
+  2. Identify problematic aspects of your service
+     - Understand failure domains
