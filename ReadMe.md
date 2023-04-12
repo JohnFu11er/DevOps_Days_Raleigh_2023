@@ -229,3 +229,37 @@
        - How do we ensure we actually hit our objectives - Correlate service SLO with telemetry
   2. Identify problematic aspects of your service
      - Understand failure domains
+
+### GitOps to the Rescue
+- [Monica Tamboli](https://www.linkedin.com/in/monica-tamboli/)
+- [Daniel Guinana](https://www.linkedin.com/in/dguinan1/)
+- [OpenLiberty](https://openliberty.io/)
+- Goals for automation
+  - reduce setup time
+  - quickly debug issues
+  - manage production-like clusters for testing
+- Automation workflow
+  1. Run setup script
+  2. Create ArgoCD applicaion
+     - install operators
+     - setup other features
+- Infrastructure as Code (IaC)
+  - Files stored in git
+  - Apply files from local machine
+  - Some tools like Jenkins deploy them as part of the CI/CD pipeline
+- GitOps
+  - GitOps Framework = IaC + best practices
+  - Git as single source of truth
+  - Argo will see any changes to the git repo and ask if you want to sync your cluster to match the git repo
+- Agents
+  - ArgoCD
+    - supports deployment in waves like stages
+  - Flux
+  - Openshift GitOps
+  - Helm Chart
+- Other apps
+  - Travis
+  - OpenShift
+  - DB2
+  - JMeter
+- Give each application its own container in the cluster
