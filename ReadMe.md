@@ -1,6 +1,32 @@
-# DevOps Days Notes
+# DevOps Days Raleigh 2023 Notexs
+<img src="./pictures/devops_days_logo.jpg" width="200">
+
 ### Resources
 - [OpenTelemetry](https://opentelemetry.io/)
+- [Theory of control systems](https://en.wikipedia.org/wiki/Control_theory)
+- [Example of microservices (humor)](https://www.youtube.com/watch?v=y8OnoxKotPQ)
+- [KubeEdge](https://kubeedge.io/en/)
+- [EdgeMesh](https://edgemesh.com/)
+- [Container Networking Interface (CNI)](https://github.com/containernetworking/cni)
+- [Service Mesh](https://konghq.com/learning-center/service-mesh/what-is-a-service-mesh)
+- [Ambient](https://www.solo.io/products/ambient-mesh/)
+- [HTTP-Based Overlay Network (HBONE)](https://istio.io/latest/blog/2022/introducing-ambient-mesh/)
+- [GLOO platform](https://www.solo.io/products/gloo-platform/)
+- [Edge Computing Systes Kubernetes technologies](https://www.amazon.com/Edge-Computing-Systems-Kubernetes-technologies/dp/1800568592)
+- [Itsio Ambient Explained](https://www.oreilly.com/library/view/istio-ambient-explained/9781098142698/)
+- [Cypress](https://www.cypress.io/)
+- [Testing Fundamentals](https://automationpanda.com/2020/07/07/arrange-act-assert-a-pattern-for-writing-good-tests/)
+- [Feature flags](https://www.atlassian.com/continuous-delivery/principles/feature-flags)
+- [AzureAD](https://azure.microsoft.com/en-us/products/active-directory/)
+- [Okta](https://www.okta.com/)
+- [Ping](https://www.pingidentity.com/en/platform/capabilities/single-sign-on.html)
+
+
+### Sections
+- [Observability vs performance monitoring](#observability-vs-performance-monitoring)
+- [Edge Compute Ops](#edge-compute-ops)
+- [Testing in Prod as Part of the Pyramid](#testing-in-prod-as-part-of-the-pyramid)
+- [Zero Trust Security for K8's apps](#zero-trust-security-for-k8s-apps)
 
 ### Observability vs performance monitoring
 - [Sarah Morgan](https://www.linkedin.com/in/sarahgmorgan/)
@@ -144,3 +170,33 @@
     - Investment in observability
 - Other things of interest:
   - [Monte Carlo Simulation](https://www.investopedia.com/terms/m/montecarlosimulation.asp)
+
+### Zero Trust Security for K8's apps
+- Identity based security
+  - [AzureAD](https://azure.microsoft.com/en-us/products/active-directory/)
+  - [Okta](https://www.okta.com/)
+  - [Ping](https://www.pingidentity.com/en/platform/capabilities/single-sign-on.html)
+- Ingress controllers
+  - Policy Decision Point (PDP)
+  - Policy Enforcement Point (PEP)
+- Features and capabilities
+  - Authentication and Authorization
+  - Data encryption and integrity
+  - Access control and access
+  - Monitoring and observability
+  - WAF and DoS protection
+- Best practices:
+  - avoid complexity and overhead
+  - enforce zero trust for comms to/from and within the k8s cluster
+  - secure n=s comms with an ingress controller and e-w comms with a service mesh
+  - integrate the ingerss controller with the service mesy
+  - Automate certificate management
+- Benefits
+  - Protext apps from edge to cloud
+  - Prevent unauthorized activity
+  - Minimize atack surface
+  - Ensure holistic app security
+  - Gain better visibility and insight
+  - Reduce complexity and sprawl
+- - Additional documentation
+  - [Zero Trust Architecture in Kubernetes](https://www.nginx.com/resources/library/zero-trust-architecture-in-kubernetes/)
