@@ -20,13 +20,26 @@
 - [AzureAD](https://azure.microsoft.com/en-us/products/active-directory/)
 - [Okta](https://www.okta.com/)
 - [Ping](https://www.pingidentity.com/en/platform/capabilities/single-sign-on.html)
-
+- [Zero Trust Architecture in Kubernetes](https://www.nginx.com/resources/library/zero-trust-architecture-in-kubernetes/)
+- [Datadog](https://www.datadoghq.com/)
+- [OpenLiberty](https://openliberty.io/)
+- [ArgoCD](https://argoproj.github.io/cd/)
+- [Flux](https://fluxcd.io/)
+- [Openshift GitOps](https://docs.openshift.com/container-platform/4.8/cicd/gitops/understanding-openshift-gitops.html)
+- [Helm Chart](https://helm.sh/docs/intro/quickstart/)
+- [Travis](https://www.travis-ci.com/)
+- [Openshift](https://docs.openshift.com)
+- [DB2](https://www.ibm.com/products/db2)
+- [JMeter](https://jmeter.apache.org/)
+- [Kustomize](https://kustomize.io/)
 
 ### Sections
 - [Observability vs performance monitoring](#observability-vs-performance-monitoring)
 - [Edge Compute Ops](#edge-compute-ops)
 - [Testing in Prod as Part of the Pyramid](#testing-in-prod-as-part-of-the-pyramid)
 - [Zero Trust Security for K8's apps](#zero-trust-security-for-k8s-apps)
+- [Keeping your product and Engineering Teams Aligned as You Scale from zero to IPO](#keeping-your-product-and-engineering-teams-aligned-as-you-scale-from-zero-to-ipo)
+- [GitOps to the Rescue](#gitops-to-the-rescue)
 
 ### Observability vs performance monitoring
 - [Sarah Morgan](https://www.linkedin.com/in/sarahgmorgan/)
@@ -252,14 +265,15 @@
   - Git as single source of truth
   - Argo will see any changes to the git repo and ask if you want to sync your cluster to match the git repo
 - Agents
-  - ArgoCD
-    - supports deployment in waves like stages
-  - Flux
-  - Openshift GitOps
-  - Helm Chart
+  - [ArgoCD](https://argoproj.github.io/cd/)
+    - supports deployment in waves like stages 
+  - [Flux](https://fluxcd.io/)
+  - [Openshift GitOps](https://docs.openshift.com/container-platform/4.8/cicd/gitops/understanding-openshift-gitops.html)
+  - [Helm Chart](https://helm.sh/docs/intro/quickstart/)
 - Other apps
-  - Travis
-  - OpenShift
-  - DB2
-  - JMeter
+  - [Travis](https://www.travis-ci.com/)
+  - [Openshift](https://docs.openshift.com)
+  - [DB2](https://www.ibm.com/products/db2)
+  - [JMeter](https://jmeter.apache.org/)
+  - [Kustomize](https://kustomize.io/)
 - Give each application its own container in the cluster
