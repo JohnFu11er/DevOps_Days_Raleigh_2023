@@ -1,4 +1,4 @@
-# DevOps Days Raleigh 2023 Notexs
+# DevOps Days Raleigh 2023 Notes
 <img src="./pictures/devops_days_logo.jpg" width="200">
 
 ### Resources
@@ -85,7 +85,7 @@
 - How do I view what is happening on my edge application deployment
 - Tools:
   - Graphana
-  - Promethesius
+  - Prometheus
 - [KubeEdge](https://kubeedge.io/en/)
 - [EdgeMesh](https://edgemesh.com/)
 - K3
@@ -95,7 +95,7 @@
   - [ambient](https://www.solo.io/products/ambient-mesh/)
 - Networking problems:
   - VPN
-  - Tunnelling
+  - Tunneling
 - [HTTP-Based Overlay Network (HBONE)](https://istio.io/latest/blog/2022/introducing-ambient-mesh/)
   - Just a fancy Istio "protocol" for using HTTP Connect to tunnel encrypted data
 - [GLOO platform](https://www.solo.io/products/gloo-platform/)
@@ -199,10 +199,10 @@
   - Monitoring and observability
   - WAF and DoS protection
 - Best practices:
-  - avoid complexity and overhead
-  - enforce zero trust for comms to/from and within the k8s cluster
-  - secure n=s comms with an ingress controller and e-w comms with a service mesh
-  - integrate the ingerss controller with the service mesy
+  - Avoid complexity and overhead
+  - Enforce zero trust for comms to/from and within the k8s cluster
+  - Secure n=s comms with an ingress controller and e-w comms with a service mesh
+  - Integrate the ingerss controller with the service mesy
   - Automate certificate management
 - Benefits
   - Protext apps from edge to cloud
@@ -248,14 +248,14 @@
 - [Daniel Guinana](https://www.linkedin.com/in/dguinan1/)
 - [OpenLiberty](https://openliberty.io/)
 - Goals for automation
-  - reduce setup time
-  - quickly debug issues
-  - manage production-like clusters for testing
+  - Reduce setup time
+  - Quickly debug issues
+  - Manage production-like clusters for testing
 - Automation workflow
   1. Run setup script
   2. Create ArgoCD applicaion
-     - install operators
-     - setup other features
+     - Install operators
+     - Setup other features
 - Infrastructure as Code (IaC)
   - Files stored in git
   - Apply files from local machine
